@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - "7"
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  slack: yaleits-cct:30ydDArus5pyk5mXEHLG3zSN
